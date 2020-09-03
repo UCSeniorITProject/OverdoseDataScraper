@@ -22,5 +22,5 @@ module.exports = async (filePath) => {
 		}
 		drugInfo.push(drug);
 	}
-	console.log(drugInfo)
+	return drugInfo;
 }
